@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/homeMenu"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+        <item
+            android:id="@+id/postMenu"
+            android:title="Post Ad"
+            android:icon="@drawable/post"/>
+        <item
+            android:id="@+id/sugMenu"
+            android:title="Suggestion"
+            android:icon="@drawable/suggest"/>
+        <item
+            android:id="@+id/devMenu"
+            android:title="About Developer"
+            android:icon="@drawable/dev"/>
+        <item
+            android:id="@+id/exitMenu"
+            android:title="Log Out"
+            android:icon="@drawable/logout"
+            />
+    </group>
+
+</menu>

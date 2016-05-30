@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Rent Nepal</string>
+    <string name="app_version">Version 1.1</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tab_layout">TabLayout</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_login">Sign in</string>
+    <string-array name="type">
+        <item>Rent</item>
+        <item>Sale</item>
+    </string-array>
+    <string-array name="hints">
+        <item>Mechi</item>
+        <item>Koshi</item>
+        <item>Sagarmatha</item>
+        <item>Janakpur</item>
+        <item>Narayani</item>
+        <item>Bagmati</item>
+        <item>Gandaki</item>
+        <item>Lumbini</item>
+        <item>Dhaulagiri</item>
+        <item>Rapti</item>
+        <item>Bheri</item>
+        <item>Karnali</item>
+        <item>Seti</item>
+        <item>Mahakali</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_new_map">Map</string>
+</resources>

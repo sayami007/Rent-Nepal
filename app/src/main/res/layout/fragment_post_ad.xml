@@ -1,0 +1,179 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:paddingBottom="50dp"
+        android:orientation="vertical"
+        tools:context="com.mobile.app.rentnepal.PostAd">
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:inputType="text"
+            android:text="Post your ad"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/userNamePOST"
+
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:enabled="false"
+            android:hint="Username" />
+
+        <EditText
+            android:id="@+id/addressPOST"
+
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Set Location" />
+
+            <EditText
+                android:id="@+id/lat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="3"
+                android:enabled="false"
+                android:text="lat" />
+
+            <EditText
+                android:id="@+id/lng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="3"
+                android:enabled="false"
+                android:text="lng" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/phoneNumberPOST"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number" />
+
+        <EditText
+            android:id="@+id/mobilePOST"
+
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Click button to put image" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+
+
+                <ImageButton
+                    android:id="@+id/imageButton2POST"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="25" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3POST"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="25" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4POST"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="25" />
+
+                <ImageButton
+                    android:id="@+id/imageButton1POST"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="25" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/zonePOST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/hints"
+            android:hint="Zone" />
+
+        <EditText
+            android:id="@+id/districtPOST"
+
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="District" />
+
+        <EditText
+            android:id="@+id/descriptionPOST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Description" />
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/amountPOST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price" />
+
+        <Spinner
+            android:id="@+id/typePOST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/type"
+            android:spinnerMode="dialog" />
+
+        <Button
+            android:id="@+id/submit"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+    </LinearLayout>
+</ScrollView>

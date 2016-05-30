@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "989304207584",
+    "project_id": "rent-nepal"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989304207584:android:dfa3163c088a4f3b",
+        "android_client_info": {
+          "package_name": "com.mobile.app.rentnepal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989304207584-3au5ddgsja6u5u72iueb67p95230vmlj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobile.app.rentnepal",
+            "certificate_hash": "46B18D3A5671F59C9EEBBE6293E7EDE10E139F60"
+          }
+        },
+        {
+          "client_id": "989304207584-98t2vg9no2dopug28prcqbp7n1rip0hb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt2ejj1JfBrBOtRpGNHhxW5i-Uq2qVfVA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
